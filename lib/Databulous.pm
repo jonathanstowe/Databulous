@@ -1,6 +1,17 @@
-use v6;
+use v6.c;
 
 class Databulous {
+    has $!header;
+    has $!rows;
+
+    multi submethod BUILD(:@data!, :@header!, Bool :$strict) {
+    }
+
+    class Header {
+    }
+
+    class Row {
+    }
 
 
 }
