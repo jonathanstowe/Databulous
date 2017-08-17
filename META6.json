@@ -1,0 +1,35 @@
+{
+  "name": "Datatubulous",
+  "source-url": "git://github.com/jonathanstowe/Databulous.git",
+  "support": {
+    "source": "git://github.com/jonathanstowe/Databulous.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Databulous/issues",
+    "email" : "jns+git@gellyfish.co.uk"
+  },
+  "perl": "6.c",
+  "resources": [
+  ],
+  "build-depends": [
+  ],
+  "auth": "github:jonathanstowe",
+  "depends": [
+  ],
+  "tags": [
+      "data",
+      "table",
+      "tabular"
+  ],
+  "license": "Artistic-2.0",
+  "test-depends": [
+    "Test"  
+  ],
+  "provides": {
+      "Databulous" : "lib/Databulous.pm"
+  },
+  "version": "0.0.1",
+  "meta-version": "0",
+  "authors": [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "description": "Abstraction for tabular data"
+}
